@@ -1,0 +1,23 @@
+﻿  Circle.cpp
+F:\Code\C++\Test_task\Test_task\Circle.cpp(13,23): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  Elipse.cpp
+F:\Code\C++\Test_task\Test_task\Elipse.cpp(15,23): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  Quadrilateral.cpp
+  Square.cpp
+  Triangle.cpp
+F:\Code\C++\Test_task\Test_task\Triangle.cpp(14,12): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  Window.cpp
+Window.obj : error LNK2001: неразрешенный внешний символ SDL_RenderClear.
+Window.obj : error LNK2001: неразрешенный внешний символ SDL_DestroyRenderer.
+Window.obj : error LNK2001: неразрешенный внешний символ SDL_Init.
+Window.obj : error LNK2001: неразрешенный внешний символ SDL_DestroyWindow.
+Window.obj : error LNK2001: неразрешенный внешний символ SDL_GetError.
+Window.obj : error LNK2001: неразрешенный внешний символ SDL_Quit.
+Window.obj : error LNK2001: неразрешенный внешний символ SDL_RenderDrawPoint.
+Window.obj : error LNK2001: неразрешенный внешний символ SDL_RenderDrawLine.
+Window.obj : error LNK2001: неразрешенный внешний символ SDL_CreateRenderer.
+Window.obj : error LNK2001: неразрешенный внешний символ SDL_RenderPresent.
+Window.obj : error LNK2001: неразрешенный внешний символ SDL_CreateWindow.
+Window.obj : error LNK2001: неразрешенный внешний символ SDL_SetRenderDrawColor.
+MSVCRT.lib(exe_winmain.obj) : error LNK2001: неразрешенный внешний символ WinMain.
+F:\Code\C++\Test_task\x64\Release\Test_task.exe : fatal error LNK1120: неразрешенных внешних элементов: 13

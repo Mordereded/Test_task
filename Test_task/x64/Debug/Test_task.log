@@ -1,0 +1,16 @@
+﻿Circle.obj : error LNK2005: "public: __cdecl Circle::Circle(int)" (??0Circle@@QEAA@H@Z) уже определен в test.task.obj
+Circle.obj : error LNK2005: "public: virtual enum ShapeType __cdecl Circle::GetType(void)" (?GetType@Circle@@UEAA?AW4ShapeType@@XZ) уже определен в test.task.obj
+Circle.obj : error LNK2005: "public: virtual class std::vector<struct std::pair<int,int>,class std::allocator<struct std::pair<int,int> > > __cdecl Circle::get_cords(void)" (?get_cords@Circle@@UEAA?AV?$vector@U?$pair@HH@std@@V?$allocator@U?$pair@HH@std@@@2@@std@@XZ) уже определен в test.task.obj
+Elipse.obj : error LNK2005: "public: __cdecl Ellipse::Ellipse(int,int)" (??0Ellipse@@QEAA@HH@Z) уже определен в test.task.obj
+Elipse.obj : error LNK2005: "public: virtual enum ShapeType __cdecl Ellipse::GetType(void)" (?GetType@Ellipse@@UEAA?AW4ShapeType@@XZ) уже определен в test.task.obj
+Elipse.obj : error LNK2005: "public: virtual class std::vector<struct std::pair<int,int>,class std::allocator<struct std::pair<int,int> > > __cdecl Ellipse::get_cords(void)" (?get_cords@Ellipse@@UEAA?AV?$vector@U?$pair@HH@std@@V?$allocator@U?$pair@HH@std@@@2@@std@@XZ) уже определен в test.task.obj
+Quadrilateral.obj : error LNK2005: "public: __cdecl Quadrilateral::Quadrilateral(int,int,int,int)" (??0Quadrilateral@@QEAA@HHHH@Z) уже определен в test.task.obj
+Quadrilateral.obj : error LNK2005: "public: virtual enum ShapeType __cdecl Quadrilateral::GetType(void)" (?GetType@Quadrilateral@@UEAA?AW4ShapeType@@XZ) уже определен в test.task.obj
+Quadrilateral.obj : error LNK2005: "public: virtual class std::vector<struct std::pair<int,int>,class std::allocator<struct std::pair<int,int> > > __cdecl Quadrilateral::get_cords(void)" (?get_cords@Quadrilateral@@UEAA?AV?$vector@U?$pair@HH@std@@V?$allocator@U?$pair@HH@std@@@2@@std@@XZ) уже определен в test.task.obj
+Square.obj : error LNK2005: "public: __cdecl Square::Square(int)" (??0Square@@QEAA@H@Z) уже определен в test.task.obj
+Square.obj : error LNK2005: "public: virtual enum ShapeType __cdecl Square::GetType(void)" (?GetType@Square@@UEAA?AW4ShapeType@@XZ) уже определен в test.task.obj
+Square.obj : error LNK2005: "public: virtual class std::vector<struct std::pair<int,int>,class std::allocator<struct std::pair<int,int> > > __cdecl Square::get_cords(void)" (?get_cords@Square@@UEAA?AV?$vector@U?$pair@HH@std@@V?$allocator@U?$pair@HH@std@@@2@@std@@XZ) уже определен в test.task.obj
+Triangle.obj : error LNK2005: "public: __cdecl Triangle::Triangle(int,int,int)" (??0Triangle@@QEAA@HHH@Z) уже определен в test.task.obj
+Triangle.obj : error LNK2005: "public: virtual enum ShapeType __cdecl Triangle::GetType(void)" (?GetType@Triangle@@UEAA?AW4ShapeType@@XZ) уже определен в test.task.obj
+Triangle.obj : error LNK2005: "public: virtual class std::vector<struct std::pair<int,int>,class std::allocator<struct std::pair<int,int> > > __cdecl Triangle::get_cords(void)" (?get_cords@Triangle@@UEAA?AV?$vector@U?$pair@HH@std@@V?$allocator@U?$pair@HH@std@@@2@@std@@XZ) уже определен в test.task.obj
+F:\Code\C++\Test_task\x64\Debug\Test_task.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более

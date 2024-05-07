@@ -1,0 +1,16 @@
+﻿Window.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_GetError в функции "private: void __thiscall Window::InitWindow(void)" (?InitWindow@Window@@AAEXXZ).
+Window.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_CreateWindow в функции "private: void __thiscall Window::InitWindow(void)" (?InitWindow@Window@@AAEXXZ).
+Window.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_DestroyWindow в функции "public: __thiscall Window::~Window(void)" (??1Window@@QAE@XZ).
+Window.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_CreateRenderer в функции "private: void __thiscall Window::InitWindow(void)" (?InitWindow@Window@@AAEXXZ).
+Window.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_SetRenderDrawColor в функции "public: void __thiscall Window::Render(class Shape *)" (?Render@Window@@QAEXPAVShape@@@Z).
+Window.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_RenderClear в функции "public: void __thiscall Window::Render(class Shape *)" (?Render@Window@@QAEXPAVShape@@@Z).
+Window.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_RenderDrawPoint в функции "private: void __thiscall Window::DrawShape(class std::vector<struct std::pair<int,int>,class std::allocator<struct std::pair<int,int> > > const &,enum ShapeType)" (?DrawShape@Window@@AAEXABV?$vector@U?$pair@HH@std@@V?$allocator@U?$pair@HH@std@@@2@@std@@W4ShapeType@@@Z).
+Window.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_RenderDrawLine в функции "private: void __thiscall Window::DrawShape(class std::vector<struct std::pair<int,int>,class std::allocator<struct std::pair<int,int> > > const &,enum ShapeType)" (?DrawShape@Window@@AAEXABV?$vector@U?$pair@HH@std@@V?$allocator@U?$pair@HH@std@@@2@@std@@W4ShapeType@@@Z).
+Window.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_RenderPresent в функции "public: void __thiscall Window::Render(class Shape *)" (?Render@Window@@QAEXPAVShape@@@Z).
+Window.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_DestroyRenderer в функции "public: __thiscall Window::~Window(void)" (??1Window@@QAE@XZ).
+Window.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_Init в функции "private: void __thiscall Window::InitWindow(void)" (?InitWindow@Window@@AAEXXZ).
+Window.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_Quit в функции "public: __thiscall Window::~Window(void)" (??1Window@@QAE@XZ).
+MSVCRTD.lib(exe_winmain.obj) : error LNK2019: ссылка на неразрешенный внешний символ _WinMain@16 в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
+F:\Code\LIBS\SDL2-2.28.5\lib\x64\SDL2.lib : warning LNK4272: тип компьютера библиотеки "x64" конфликтует с типом целевого компьютера "x86"
+F:\Code\LIBS\SDL2-2.28.5\lib\x64\SDL2main.lib : warning LNK4272: тип компьютера библиотеки "x64" конфликтует с типом целевого компьютера "x86"
+F:\Code\C++\Test_task\Debug\Test_task.exe : fatal error LNK1120: неразрешенных внешних элементов: 13
